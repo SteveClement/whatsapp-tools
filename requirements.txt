@@ -1,2 +1,12 @@
+# Requirements for the WhatsApp Web group-members extractor (group_extractor / main.py)
+# Selenium browser automation driving an existing WhatsApp Web session.
+
 selenium>=4.0.0
 webdriver-manager>=3.0.0
+
+# Requirements for the WhatsApp Desktop exporter (wa_desktop_export.py / wa_export_tui.py)
+# The engine (wa_desktop_export.py) itself needs ONLY the Python standard library.
+# These are for the TUI and nicer phone-number formatting.
+
+textual>=0.50        # TUI front-end (wa_export_tui.py)
+phonenumbers>=8.13   # optional: pretty international phone grouping in sender names
