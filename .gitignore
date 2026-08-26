@@ -4,6 +4,9 @@ config.py
 # Default folder for Chrome Profile
 Google/
 
+# tmp dir
+tmp/
+
 # HTML output directory
 html/
 
